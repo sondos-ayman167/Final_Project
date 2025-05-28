@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="./checkout.css" />
+
+</head>
+<body>
+
+  <h1>Checkout</h1>
+
+  <div class="promo-section">
+    <label for="promoCode">Promo Code</label>
+    <input type="text" id="promoCode" placeholder="Enter promo code" />
+    <button id="applyPromo">Apply Promo</button>
+  </div>
+  
+  <div class="total-section">
+    <p>Total: $<span id="totalAmount">0.00</span></p>
+  </div>
+  
+  <form id="paymentForm">
+  <label>
+    <input type="radio" name="paymentMethod" value="visa" checked />
+    Visa / Credit Card
+  </label>
+  <label>
+    <input type="radio" name="paymentMethod" value="cash" />
+    Cash on Delivery
+  </label>
+  <label>
+    <input type="radio" name="paymentMethod" value="paypal" />
+    PayPal
+  </label>
+</form>
+
+<div class="user-info">
+  <label>Full Name <input type="text" id="fullName" required /></label>
+  <label>Phone Number<input type="number" id="phone Number" required /></label>
+  <label>Address <input type="text" id="address" required /></label>
+</div>
+
+<div class="checkout-section">
+    <button id="checkoutBtn">Place Order</button>
+  </div>
+
+
+<script src="checkout.js"></script>
+</body>
+</html>

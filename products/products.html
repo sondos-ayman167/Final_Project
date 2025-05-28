@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> products </title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="products.css" />
+
+</head>
+<body>
+
+<nav>
+  <div class="logo">MyShop</div>
+  <div class="links">
+    <a href="products.html" class="active">Products</a>
+    <a href="../cart/cart.html">Cart</a>
+    <a href="../orders/orders.html">Orders</a>
+    <a href="../auth/auth.html">Login</a>
+  </div>
+</nav>
+
+<section class="animated-gallery">
+  <img src="./06d3be0bf9e7dbba2b143b4a47ff6b12.jpg" alt="Product 1">
+  <img src="./9cb77b79c868d2330ea7274025f3b5f8.jpg" alt="Product 2">
+  <img src="./bfdab3b9fbf577a4193a3825985740b8.jpg" alt="Product 3">
+  <img src="./a516950ea2385b8377c977e321815114.jpg" alt="Product 4">
+  <img src="./c1321a967d07909418b7b974513a31f2.jpg" alt="Product 5">
+   <img src="./14457bef081e06e07fe1d507c3c35d72.jpg" alt="Product 6">
+</section>
+
+<div id="imageModal" class="image-modal">
+  <span class="close-btn">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
+
+
+<div class="container">
+  <h1>Product Catalog</h1>
+  <input type="text" id="searchInput" placeholder="Search products..." />
+  <div id="productsList" class="products-list"></div>
+</div>
+
+<script src="products.js"></script>
+</body>
+</html>

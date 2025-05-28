@@ -1,0 +1,112 @@
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+nav .logo {
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #2c2c2c;
+  letter-spacing: 1px;
+}
+
+nav .links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #666666;
+  font-weight: 600;
+  padding: 6px 0;
+  border-bottom: 3px solid transparent;
+  transition: all 0.25s ease;
+  font-size: 1rem;
+}
+
+nav .links a.active,
+nav .links a:hover {
+  color: #2c2c2c;
+  border-bottom: 3px solid #2c2c2c;
+  padding-bottom: 6px;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #ffffff; 
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  color: #444444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 18px 24px;
+  margin-bottom: 22px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+  box-shadow: 0 0 18px rgba(0,0,0,0.1);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-bottom: 14px;
+  font-size: 18px;
+  color: #333333;
+}
+
+.order-items {
+  margin-left: 12px;
+  color: #555555;
+  font-weight: 500;
+}
+
+.order-item {
+  margin-bottom: 8px;
+}
+
+.status {
+  font-weight: 700;
+  color: #666666; 
+  font-style: italic;
+}
+.delete-order-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+.delete-order-btn:hover {
+  background-color: #111;
+}

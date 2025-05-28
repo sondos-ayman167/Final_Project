@@ -1,0 +1,209 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;  
+  color: #333;             
+  margin: 0;
+  padding: 30px 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #444;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.promo-section {
+  max-width: 420px;
+  margin: 0 auto 35px auto; 
+  padding: 28px 25px;
+  background-color: #ffffff; 
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+  transition: box-shadow 0.3s ease;
+}
+
+.promo-section:hover {
+  box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+}
+
+.promo-section label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #555;
+  letter-spacing: 0.02em;
+}
+
+.promo-section input[type="text"] {
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  font-weight: 500;
+  color: #333;
+}
+
+.promo-section input[type="text"]:focus {
+  border-color: #333;
+  outline: none;
+  box-shadow: 0 0 6px rgba(51, 51, 51, 0.4);
+}
+
+.promo-section button {
+  padding: 14px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  box-shadow: 0 5px 14px rgba(51, 51, 51, 0.25);
+}
+
+.promo-section button:hover {
+  background-color: #555;
+  box-shadow: 0 7px 20px rgba(85, 85, 85, 0.35);
+}
+
+.total-section {
+  max-width: 420px;
+  margin: 0 auto 35px auto;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #444;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #fff;
+  padding: 18px 20px;
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px #ccc;
+}
+
+.checkout-section {
+  max-width: 420px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+#checkoutBtn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 16px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 18px rgba(51, 51, 51, 0.4);
+}
+
+#checkoutBtn:hover {
+  background-color: #555;
+  box-shadow: 0 9px 25px rgba(85, 85, 85, 0.5);
+}
+
+#paymentForm {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 28px 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  transition: box-shadow 0.3s ease;
+}
+
+#paymentForm:hover {
+  box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+}
+
+#paymentForm label {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+  gap: 15px;
+  letter-spacing: 0.02em;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+
+#paymentForm label:hover {
+  color: #333;
+}
+
+#paymentForm input[type="radio"] {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  accent-color: #333;
+  transition: accent-color 0.3s ease;
+}
+
+#paymentForm {
+  margin-bottom: 40px; 
+}
+
+.user-info {
+  max-width: 420px;
+  margin: 0 auto 35px auto; 
+  padding: 28px 25px;
+  background-color: #ffffff; 
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+  transition: box-shadow 0.3s ease;
+}
+
+.user-info:hover {
+  box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+}
+
+.user-info label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #555;
+  letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.user-info input[type="text"],
+.user-info input[type="number"] {
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  font-weight: 500;
+  color: #333;
+}
+
+.user-info input[type="text"]:focus,
+.user-info input[type="number"]:focus {
+  border-color: #333;
+  outline: none;
+  box-shadow: 0 0 6px rgba(51, 51, 51, 0.4);
+}
